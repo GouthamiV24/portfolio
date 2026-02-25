@@ -1,0 +1,37 @@
+.box {
+    background-color: rgb(152, 116, 161);
+    height:600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    color: blue;
+}
+.innerbox {
+    background-color: rgba(44, 38, 113, 0.844);
+    height: 300px;
+    width: 300px;
+    border-radius: 800%;
+}
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 500%;
+    object-fit: cover;
+
+}
+.txt {
+    color: rgb(185, 14, 14);
+    padding: 18px;
+    padding-left: 18px ;
+    padding-right: 18px;
+}
+button {
+    background-color: rgb(136, 96, 36);
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
